@@ -37,6 +37,10 @@ Tambien tienen que tener bajo el mysql local, utilizando el comando:
 ```
 	systemctl stop mysql
 ```
+TUTORAL DJANGP:
+
+Para instalar, configurar y aprendar a usar DJANGO, ver el siguinte enlace: 
+https://tutorial.djangogirls.org/es/
 CONFIG DJANGO:
 Para cargar la configuración de la conexion de proyecto con la base de datos tienen crear el archivo ./proyecto/local_settings, tiene uno de ejemplo ./proyecto/local_settings.php
 
