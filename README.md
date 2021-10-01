@@ -37,7 +37,7 @@ Tambien tienen que tener bajo el mysql local, utilizando el comando:
 ```
 	systemctl stop mysql
 ```
-DJANGO
+CONFIG DJANGO:
 Para cargar la configuración de la conexion de proyecto con la base de datos tienen crear el archivo ./proyecto/local_settings, tiene uno de ejemplo ./proyecto/local_settings.php
 
 
@@ -46,6 +46,9 @@ cd ta2-django/proyecto
 cp local_settings.py.ejemplo local_settings.py
 cat local_settings.py
 
+
+```
+Contenido del local_settings
 ```
 DEBUG = True
 ALLOWED_HOSTS = []
@@ -59,5 +62,5 @@ DATABASES = {
         'HOST' : 'mysql',
     }
 }
-
+```
 
