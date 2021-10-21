@@ -43,7 +43,8 @@ Para instalar, configurar y aprendar a usar DJANGO, ver el siguinte enlace:
 https://tutorial.djangogirls.org/es/
 CONFIG DJANGO:
 Para cargar la configuración de la conexion de proyecto con la base de datos tienen crear el archivo ./proyecto/local_settings, tiene uno de ejemplo ./proyecto/local_settings.php
-NOTA: No se deben subir al proyecto de git los archivos de configuración que contengan datos sensibles de usuario
+
+## NOTA: No se deben subir al proyecto de git los archivos de configuración que contengan datos sensibles de usuario
 
 ```
 cd ta2-django/proyecto
